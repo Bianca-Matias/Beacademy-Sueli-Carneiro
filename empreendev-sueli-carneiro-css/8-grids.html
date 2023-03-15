@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+
+    <style>
+        * {padding: 0;
+        margin: 0;}
+
+    body {display: grid;
+    height: 100vh;
+    /* Vh é Viewport-height (Porte de visão do comprimento) */
+    grid-template-areas:"topo topo" "conteúdo  barra-lateral" "rodapé rodapé";
+    /* 
+    grid demonstra as áreas que algo vai ocupar. 
+     Porque tem dois topos? Porque ele ocupa duas areas da pagina
+     Com o rodapé é a mesma coisa
+    */
+    grid-template-rows: 60px 1fr 60px ;
+/* tamanho das linhas  
+        Fr é fração
+*/
+    grid-template-columns: 1fr 128px ;}  
+/* tamanho das colunas */
+
+    header, article, aside, footer {font-size: 30px;}
+        /* obs: é possível se referir a varias coisas como mostrado acima */
+        header {background-color: violet;
+        grid-area: topo;}
+        article {background-color: rgb(139, 139, 232);
+        grid-area: conteúdo;}
+        aside {background-color: rgb(93, 198, 176);
+        grid-area: barra-lateral;}
+        footer {background-color: rgb(111, 139, 121);
+        grid-area: rodapé;}
+ 
+           .bloco-violeta { margin: 5px;
+            font-size: 14px; width: 100px;  
+            height: 300px;
+            background-color: brown;}
+
+            .bloco {font-size: 14px;}
+
+            .content{ width: 100%;
+            height: 80%; background-color: rgb(49, 90, 77); background-position: center;
+            background-image: url(https://th.bing.com/th/id/R.9496d1358181c372acf3858cbf448fd7?rik=tdPUsnUNiiPASg&riu=http%3a%2f%2fwww.adelo.com.ar%2fimages%2fnotas%2fagua.jpg&ehk=JqFQccWMx3Yp6E7KJ1mx2Ondc3hKcbN6L2hlSYpMko0%3d&risl=&pid=ImgRaw&r=0);
+            background-size: 100%;
+            background-repeat: no-repeat;}
+
+                .agua {height: 100px;
+                width: 100px;
+                padding: 5px;
+
+            }
+    </style>
+</head>
+<body>
+    <header>
+        topo
+    </header>
+    
+        <article>
+            conteúdo
+            <div class="bloco">Conteúdo do article <br>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                  Accusantium blanditiis earum dicta rem. Porro, reiciendis neque, nisi soluta eligendi nam qui quia nesciunt eius corporis, ducimus nostrum consequatur. Dignissimos, incidunt.</div>
+            <div class="content"></div> >
+        </article>
+        <aside>
+            barra lateral
+            <img class="agua" src="https://th.bing.com/th/id/R.9496d1358181c372acf3858cbf448fd7?rik=tdPUsnUNiiPASg&riu=http%3a%2f%2fwww.adelo.com.ar%2fimages%2fnotas%2fagua.jpg&ehk=JqFQccWMx3Yp6E7KJ1mx2Ondc3hKcbN6L2hlSYpMko0%3d&risl=&pid=ImgRaw&r=0" alt="garrafa enchendo um copo d'agua">
+            <article class="bloco-violeta"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, recusandae esse? Facere, porro similique. Cupiditate illo exercitationem quas illum totam molestiae sequi aliquam ipsa, praesentium facilis iusto possimus, laudantium quaerat.</article>
+        </aside>
+
+    <footer>
+        
+        rodapé
+    </footer>
+</body>
+</html>

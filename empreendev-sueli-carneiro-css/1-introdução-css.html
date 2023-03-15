@@ -1,0 +1,74 @@
+<!-- CSS
+
+Anatomia de um CSS
+
+<style> h1 {color:red;} </style>
+
+h1 = seletor
+{color:red;} = declaração
+color = propriedade
+red = valor da propriedade
+-->   
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <link rel="stylesheet" href="./Css/Link.css">
+
+</head>
+<body>
+
+
+    <!-- <h1>Oi, eu sou um título com CSS</h1> -->
+<!--     
+<style> 
+ div {background-color: rgb(75, 75, 132); color: aliceblue;}
+</style>
+
+<div class="content">
+    <h1>Oi, eu sou um título!
+    </h1>
+       <p>
+           Oi, eu sou um paragrafo
+       </p>
+
+</div>
+ -->
+
+
+ <!-- 
+    in line -> Coloca as declarações diretamente na linha. Ex: <h1 style="color: aliceblue;"></h1>">
+    style -> utiliza o comando fora da line (recomendadissimo usar isso no head). Ex: 
+    <head> 
+        <style> h1 {color: blue;} </style>
+    </head>
+    link -> Via link. Criando uma pasta com "nome.css", e colocando link rel href="./pasta/nome.css"
+    @import -> importa url
+
+    *Existe uma hierarquia de força nos estilos*
+
+    Inline é mais forte que style e link
+    e style é mais forte que link
+
+    O que isso significa? Que na hora de fazer o código, eu posso sobrepor coisas do link utilizando style ou inline, caso eu queria sobrepor todos eu uso direto inline.
+    porque isso ocorre? Por causa da conexão dos elementos.
+    Inline vai estar colado no seletor, já o style vai estar na mesma pagina (no caso, mais distante na conexão) e o link vai estár em outra página, com uma conexão fraquissima
+  -->
+
+  <!-- pratica da hierarquia de css -->
+
+
+<style> h1{color: blue;} </style>
+  <Div> 
+    <h1 style="color: violet;">Oi tudo bem? Eu sou um título que vai ser usado de exemplo! :D</h1>
+    <!-- agora é só testar.
+    Inline>Style>link -->
+  </Div>
+</body>
+</html>

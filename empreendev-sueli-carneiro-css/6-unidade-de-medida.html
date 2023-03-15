@@ -1,0 +1,60 @@
+<!-- Unidades de medida
+    
+        Interger -> números inteiros (-10 ou 123)
+        number -> números decimais (-1.4/0.1/2.4/10/0.321) (lembrar de usar "." invez de "," pois estou lidando com unidades americanas)
+        porcentage -> representa a fração de um número  50% de 10
+        Dimension -> um número com unidade junto (2px,20s,40deg)
+
+        Lenght -> Valor de uma distancia px, em, vw
+        angle -> angulo: deg, rad, turn
+            (grau, radiano (1 ciclo = 2 rad) e turno (1 ciclo = 1 turno))
+        time -> tempo s, ms
+                (second e millisecond)
+        resolution -> resolução para despositivos - dpi
+
+
+
+        em -> tamanho da fonte do elemento pai
+        rem -> tamanho da fonte do elemento raiz (root)
+
+ -->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unidades de medida</title>
+
+
+    <style>
+        :root {font-size: 62.5%; 
+            margin-top: 2.5rem;
+            /* 62.5 faz a pagina ficar 10px */
+        }
+        .caixa-texto { margin-left: 2.5rem; ; font-size: 0.5rem;}
+        /* 2.5 fica 25 px*/
+    /* rem está se referindo diretamente a root
+    logo a fonte de caixa texto vai ser 9 pixel*/
+
+    </style>
+
+ </head>
+ <body>
+    <main>
+        <section>
+            <article>
+                <div class="card">
+                    <h1>Oi eu sou um titulo</h1>
+                    <p class="caixa-texto">
+                        Eu sou um paragrafo! <br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla amet, ratione voluptates nemo expedita, possimus eum commodi eius sint quo deserunt suscipit provident ad! <br> Excepturi repellat perspiciatis deserunt natus praesentium.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    
+
+ </body>
+ </html>

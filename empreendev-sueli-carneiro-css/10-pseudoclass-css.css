@@ -1,0 +1,34 @@
+ul li {color: blue; font-size: 2rem;}
+
+ul li:first-child {color: green;} 
+
+ul li:nth-child(2) {color: yellowgreen;}
+
+ul li:nth-of-type(3) {color: yellow;}
+
+ul li:nth-child(4) {color: rgb(138, 120, 66);}
+/* Pega no contexto geral, se tive algo antes dos li e eu quiser selecionar o 2, tenho que pensar: 1 coisa anterior + o numero que quero
+se for o 2 e tiver algo antes, tenho que por 3 inves de 2 */
+
+div p:nth-child(even) {color: yellowgreen;}
+div p:nth-child(odd) {color: blueviolet;}
+
+ 
+.button-submit {color: aliceblue; background-color: blueviolet;
+    transition: background-color 0.5s;   padding: 1rem; border: none; border-radius: 10%; cursor: pointer;}
+    
+    
+    .button-submit:hover {color: red; background-color: yellow  ;}
+    
+    .button-submit:focus {background-color: green; color: yellow;}
+/* os passos tem que estar em hierarquia
+Primeiro button submit, dps hover e dps focus */
+
+input[type=text] {background-color: rgb(89, 50, 109); border-radius: 5px; border: 4px;
+}
+
+input[type=text]:hover {background-color: rgb(160, 66, 207); border-radius: 5px; border: 4px; transition: 1s;
+}
+input[type=text]::placeholder {color: aliceblue;}
+
+input[type=text]:disabled {background-color: rgb(25, 20, 27);}

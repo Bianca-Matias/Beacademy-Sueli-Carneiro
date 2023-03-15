@@ -1,0 +1,25 @@
+ul {position: relative}
+
+ul li::after {
+    content: '';
+    
+    background-color: rgb(149, 149, 84);
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 200px;
+    border-radius: 50%;
+}
+
+ul li::before {
+    content: '';
+    
+    background-color: rgb(49, 117, 156);
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 0%;
+    border-radius: 50%;
+}
+
+p::first-line {color: yellow;}

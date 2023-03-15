@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #super-texto {background-color: rgb(100, 100, 160);}
+        .meu-paragrafo {color: blue;}
+        h1 {background: rgb(124, 160, 148);}
+    </style>
+</head>
+
+<!-- hierarquia do style:
+    
+    Especificidade
+
+    A especificidade ajuda o computador a entender a força de sobreposição que cada elemento tem.
+
+    0. universal seletor
+    1.Elementos tipo pseudo-elementos
+    10.Classes (class) e atributos seletores
+    100.Seletor ID
+    1000.Inline
+
+        Para uso de IDs = #
+        Para uso de Class = .
+
+    IDs = super-texto, meu-titulo, meu-paragrafo são muito fortes, conseguindo sobrepor h1 (por ser mais especifico do que só h1)
+    Inline é direto na linha, nada sobrepõe ele.
+-->
+
+<body>
+    <h1 id="super-texto">Oi! Eu sou um título :)</h1>
+    <p>E eu um paragrafo! :D</p>
+
+    <h1 class="meu-titulo">Eu sou o segundo título</h1>
+    <p class="meu-paragrafo">e eu o segundo paragrafo</p>
+</body>
+
+
+</html>

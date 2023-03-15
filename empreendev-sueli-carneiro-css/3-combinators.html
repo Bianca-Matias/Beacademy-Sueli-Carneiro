@@ -1,0 +1,67 @@
+<!-- 
+    Combinadores
+
+        Combinadores decendentes
+            Segue toda a hierarquia - ele é escrito só com espaço
+            Ex: body div (o que for posto para div tbm vai seguir para o que estará dentro da div
+            body div Color blue -> vai deixar todo conteudo azul {exceção: caso haja outro especificidade dentro de div, irá ocorrer uma sobreposição})
+        Combinadores filhos
+            Segue só de Pai para filho - ele é escrito ">"
+            Ex: div>h1 (o conteúdo só vai ir para div e h1)
+        Combinadores Adjcentes
+            Combina com os "irmãos" - se utiliza + (para o irmao mais proximo) e ~ (para todos os irmãos)
+            Irmãos= todos as tags que estão na linha
+
+ -->
+
+ <!-- Teste -->
+
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+
+    <style>
+        body ul li {background-color: brown;}
+        body section div ul li {background-color: green;}
+        div>li {background-color: rgb(10, 33, 70);}
+        h1+p {background-color: rgb(91, 91, 91);}
+        h1~p {background-color: rgb(73, 175, 175);}
+        /* "~" é mais forte que "+" */
+    </style>
+ </head>
+
+ <body>
+    <div>
+        <p> teste </p>
+    </div>
+    <ul>
+        <li>testando</li>
+    </ul>
+    <div>
+        outro formato
+    </div>
+    <section>
+        <div>
+            <ul>
+                <li>outro marcador</li>
+            </ul>
+        </div>
+
+        
+    </section>
+
+
+    <Section>
+        <h1>Oi eu sou um titulo</h1>
+        <p>eu sou um paragrafo</p>
+        <button>Enviar</button>
+        <p>eu sou um paragrafo</p>
+        <p>eu sou um paragrafo</p>
+        <p>eu sou um paragrafo</p>
+    </Section>
+ </body>
+ </html>

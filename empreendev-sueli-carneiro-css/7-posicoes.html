@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posições</title>
+
+    <style>
+/* 
+        .topo { width: 100%;
+        height: 50px;}
+            .menu-topo {background-color: brown;
+                z-index: 2;
+            position: fixed;
+        border-radius: 20px;
+        margin-top: -60px;}     */
+
+    body { 
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 0;
+        padding: 0;
+        background-color: blueviolet;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+        .container {display: flex; width: 100%; background-color: yellow; height: auto; justify-content: center;
+         gap: 20px;}
+
+        
+            .box {width:50px;
+                height:50px;
+            display:inline-block;}
+
+                /* Quando colocado a Box principal sendo relativa
+                todas as outras box que estão dentro dela vão seguir sua orientação
+                se ela descer, elas descem */
+                
+            .box-1{background: yellowgreen;}
+            .box-2{background: violet;}
+            .box-3{background: aqua;}
+            /* Box = pai   Box-1,2,3 = filhos 
+    A info de Box passa para seus descendentes box-1,2 e 3 */
+
+            /* 
+            Posicionamentos
+            static - padrão do site - deixa as box separadas
+            Fixed - fixo (faz com que a box siga você. Muito utilizado em header)
+            relative - Deixa um "espaço fantasma" fazendo com que as outras box não tomem o lugar da box relativa.
+            absolut - Não cria "espaço fantasma", fazendo com que as outras box tomem o lugar da box absoluta.
+            sticky
+                
+            
+            Tbm existe o código z-index que faz camadas (só que são ordenado de 10 pra 0 invez de camada zero para 10)*/
+    </style>
+</head>
+<body>
+    <!-- <div class="topo menu-topo"></div> -->
+    <Div class="container">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+        
+    </Div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.container {background-color: blueviolet; color: rgb(17, 20, 22);
+border-radius: 0.5rem;
+margin-bottom: 4rem;
+padding: 0.25rem;
+width: auto;
+height: 100%;}
+
+h2 {background-color: yellow; height:2rem; width: 4rem;}
+
+
+@media (min-width: 320px) {.container { background-color: blue; color: yellow; margin-bottom: 1rem;  }}
+
+/* 320 375 425 768 1024 */
+
+@media (min-width: 375px) {.container {background-color: yellow; color: green; margin: 1.5rem;}}
+
+@media (min-width: 425px) {.container {background-color: aquamarine; color: red; margin: 2rem; padding: 1.5rem;}}
+
+@media (min-width: 768px) {.container {background-color: brown; color: green; padding: 3rem; margin-bottom: 2rem; margin-left: 1rem; display: flex;}}
+
+@media (min-width: 1024px) {.container {background-color: green; color: white; padding: auto;  margin: 2rem; font: 1.5rem; display: flex;}
+body {background-color: rgb(48, 87, 16);}}
+/* trabalhar com min-width é trabalhar pro mobile e dps pro pc, é melhor fazer dessa forma por que hj em dia o celular vem crescendo cada vez mais enquanto pcs são deixado de lado muitas vezes.
+entt: fazer o site pensando no mobile */
