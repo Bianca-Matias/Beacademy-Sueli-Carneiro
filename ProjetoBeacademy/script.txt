@@ -1,0 +1,63 @@
+o que é frame work
+
+lading page, o q é e como fazer
+o que é console.log
+string?
+para que serve o undefined e o null? sendo que são valores vazios. (qual a diferença deles?)
+
+o que é tipado? no java script?
+
+porque tem sites com varios stylesheets?
+tipo
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="./Css/Link.css1">
+  <link rel="stylesheet" href="./Css/Link.css2">
+  <link rel="stylesheet" href="./Css/Link.css3">
+</head>
+</html>
+Dia oito vai ter prova ou mudou pra dia 15 tbm? 
+posso pedir ajuda no discord?
+Bootstrap
+ctrl +shit +i
+a gente ainda vai ter acesso a beacademy dps de dia 15?
+ver o que ta faltando na pagina no email da deborah beacademy
+
+Uma empresa de games quer um site de "contrato", eu fiquei encarregada de mostrar o que é o projeto, como funciona e o que eles querem de profissional
+
+O que é o projeto?
+Um jogo que se passa no espaço, onde todas as naves pararam de funcionar por causa de um "bug do milenio intergalatico"
+
+Como funciona? Você é encarregado de sobreviver em uma nave aonde todos os recursos estão acabando
+
+você pode selecionar ser da classe alta ou sobrevivente
+Como sobrevivente: sobrevive na nave tomando cuidado contra possiveis inimigos e coletando recursos.
+alta classe: uma milicia que domina a nave e quer todos os recursos.
+
+Que tipo de profissionais eles querem?
+
+Programadores, game designers, Enviroment storytelling artists
+
+
+Projeto
+
+Deverá abranger:
+- Semantica,
+- Titulo, X
+- Paragrafos, X
+- Listas X
+- Navegação X falta o css
+- Links X
+- Tabela X
+- Imagens, X
+- Formulário, X
+- SEO X
+- Responsivo,
+- Validação de campos,
+- Mascara de campos,
+- Manipulação de DOM - efeitos javascript
+- Condições(Try & Catch),
+- Promisses,
+- Loop,
+- Funções
+- Aplicação do Framework - VueJS

@@ -1,0 +1,37 @@
+body {background-image: url(../imgs/Sevastopol.webp);background-attachment: fixed; background-size: cover; margin: 0rem; padding: 0rem;}
+
+img {width: 15rem; height: 15rem;}
+
+
+/* navbar */
+
+nav ul {list-style-type: none; margin: 0; padding:0; overflow: hidden; background-color: rgba(0, 0, 0, 0.792);}
+nav li {float: left;}
+nav a:hover { background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);}
+li a {display: block; padding: 1rem 1.6rem; text-decoration: none; color: white;}
+
+/* h1 */
+
+h1 {padding-top: 25rem; padding-inline-start: 2rem; font-size: 4rem; color: white;}
+
+main {background-color: rgba(57, 57, 57, 0.075); display: block;}
+
+#Jogo {background-color: transparent; width: 20%; text-align: center; padding-left: 20rem;}
+#Jogo h2 { font-size: 2rem; background-color: rgba(195, 195, 195, 0.694); width: 20rem;}
+#Jogo p { font-family: sans-serif; width: 25rem; background-color: rgba(195, 195, 195, 0.694); width: 20rem; }
+
+
+
+
+#Jogabilidade {background-color: rgb(88, 88, 88);} 
+
+
+#Sobre {background-color: brown; text-align: center; padding: 2rem;}
+table { padding: 5rem 20rem 5rem; width: 10rem; }
+thead {background-color: rgb(196, 116, 45);}
+tbody {background-color: rgb(196, 116, 45);}
+
+
+footer {background-color: aqua; padding: 10rem 20rem;} 
+footer h3 {font-size: large; text-align: center;}
+.icon {width: 5rem; height: 5rem; }
