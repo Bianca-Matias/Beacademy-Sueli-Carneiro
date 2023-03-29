@@ -12,13 +12,13 @@ li a {display: block; padding: 1rem 1.6rem; text-decoration: none; color: white;
 
 /* h1 */
 
-h1 {padding-top: 25rem; padding-inline-start: 2rem; font-size: 4rem; color: white;}
+h1 {padding-top: 20rem; padding-inline-start: 2rem; font-size: 4rem; color: white;}
 
 main {background-color: rgba(57, 57, 57, 0.075); display: block;}
 
-#Jogo {background-color: transparent; width: 20%; text-align: center; padding-left: 20rem;}
-#Jogo h2 { font-size: 2rem; background-color: rgba(195, 195, 195, 0.694); width: 20rem;}
-#Jogo p { font-family: sans-serif; width: 25rem; background-color: rgba(195, 195, 195, 0.694); width: 20rem; }
+#Jogo {background-color: rgba(39, 39, 39, 0.5) ; width: 100%; text-align: center;}
+#Jogo h2 { font-size: 2rem; background-color: rgba(195, 195, 195, 0.694);}
+#Jogo p { font-family: sans-serif; background-color: rgba(195, 195, 195, 0.694);}
 
 
 
@@ -32,6 +32,6 @@ thead {background-color: rgb(196, 116, 45);}
 tbody {background-color: rgb(196, 116, 45);}
 
 
-footer {background-color: aqua; padding: 10rem 20rem;} 
+footer {background-color: rgb(89, 89, 89); padding: 10rem 20rem;} 
 footer h3 {font-size: large; text-align: center;}
 .icon {width: 5rem; height: 5rem; }
